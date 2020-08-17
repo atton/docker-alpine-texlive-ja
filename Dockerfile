@@ -22,8 +22,7 @@ RUN apk add --no-cache curl perl fontconfig-dev freetype-dev && \
     tlmgr install \
       collection-latexextra \
       collection-fontsrecommended \
-      collection-langjapanese \
-      latexmk && \
+      collection-langjapanese && \
     rm -fr /tmp/install-tl-unx && \
     apk del .fetch-deps
 
